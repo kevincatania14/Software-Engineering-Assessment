@@ -1,0 +1,12 @@
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\bin\Debug\net6.0\GithubAnalyser.Models.deps.json
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\bin\Debug\net6.0\GithubAnalyser.Models.dll
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\bin\Debug\net6.0\GithubAnalyser.Models.pdb
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\GithubAnalyser.Models.csproj.AssemblyReference.cache
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\GithubAnalyser.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\GithubAnalyser.Models.AssemblyInfoInputs.cache
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\GithubAnalyser.Models.AssemblyInfo.cs
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\GithubAnalyser.Models.csproj.CoreCompileInputs.cache
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\GithubAnalyser.Models.dll
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\refint\GithubAnalyser.Models.dll
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\GithubAnalyser.Models.pdb
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.Models\obj\Debug\net6.0\ref\GithubAnalyser.Models.dll

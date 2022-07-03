@@ -1,0 +1,182 @@
+﻿@model GithubAnalyser.Models.GithubProfileCustomModel
+
+@{
+    ViewData["Title"] = "Search";
+}
+
+<div class="container">
+  <div class="row">
+    <div class="col-8 offset-2">
+        <h1>Github Analyser</h1>
+        @if(!String.IsNullOrEmpty(Model.login) || !String.IsNullOrEmpty(Model.message))
+        {
+            if(!String.IsNullOrEmpty(Model.message))
+            {
+                @:<div class="alert alert-danger d-flex align-items-center" role="alert">
+                    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                    <div>
+                        Search for <b>@Model.message</b> returned no results
+                    </div>
+            }
+            else
+            {
+                @:<div class="alert alert-primary d-flex align-items-center" role="alert">
+                    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+                    <div>
+                        Search for <b>@Model.login</b> was succesful
+                    </div>
+            }   
+            @:</div>
+        }
+        </div>
+    </div>
+</div>
+
+@if(String.IsNullOrEmpty(Model.message))
+{
+    @:<div class="container">
+        @:<div class="row">
+            @:<div class="col-8 offset-2">
+                if(String.IsNullOrEmpty(Model.company))
+                { 
+                    @:<div class="alert alert-warning d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                        <div>
+                            Consider adding <b>company</b> to profile
+                        </div>
+                }
+                else
+                {
+                    @:<div class="alert alert-success d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                        <div>
+                            Company is set to <b>@Model.company</b>
+                        </div>
+                }
+                @:</div>
+            @:</div>    
+        @:</div>    
+    @:</div>
+}
+
+@if(String.IsNullOrEmpty(Model.message))
+{
+    @:<div class="container">
+        @:<div class="row">
+            @:<div class="col-8 offset-2">
+                if(String.IsNullOrEmpty(Model.location))
+                { 
+                    @:<div class="alert alert-warning d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                        <div>
+                            Consider adding <b>location</b> to profile
+                        </div>
+                }
+                else
+                {
+                    @:<div class="alert alert-success d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                        <div>
+                            Location is set to <b>@Model.location</b>
+                        </div>
+                }
+                @:</div>
+            @:</div>    
+        @:</div>    
+    @:</div>
+}
+
+@if(String.IsNullOrEmpty(Model.message))
+{
+    @:<div class="container">
+        @:<div class="row">
+            @:<div class="col-8 offset-2">
+                if(String.IsNullOrEmpty(Model.bio))
+                { 
+                    @:<div class="alert alert-warning d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                        <div>
+                            Consider adding <b>bio</b> to profile
+                        </div>
+                }
+                else
+                {
+                    @:<div class="alert alert-success d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                        <div>
+                            Bio is set to <b>@Model.bio</b>
+                        </div>
+                }
+                @:</div>
+            @:</div>    
+        @:</div>    
+    @:</div>
+}
+
+@if(String.IsNullOrEmpty(Model.message))
+{
+    @:<div class="container">
+        @:<div class="row">
+            @:<div class="col-8 offset-2">
+                if(Convert.ToInt32(@Model.public_repos) < 5)
+                { 
+                    @:<div class="alert alert-warning d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                        <div>
+                            Consider adding <b>@(5-Convert.ToInt32(@Model.public_repos)) public repos</b> to profile
+                        </div>
+                }
+                else
+                {
+                    @:<div class="alert alert-success d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                        <div>
+                            Profile has <b>@Model.public_repos public repos</b>
+                        </div>
+                }
+                @:</div>
+            @:</div>    
+        @:</div>    
+    @:</div>
+}
+
+@if(String.IsNullOrEmpty(Model.message))
+{
+    @:<div class="container">
+        @:<div class="row">
+            @:<div class="col-8 offset-2">
+                if(Convert.ToInt32(@Model.following) < 5)
+                { 
+                    @:<div class="alert alert-warning d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                        <div>
+                            Consider adding <b>@(5-Convert.ToInt32(@Model.following)) followings</b> to profile
+                        </div>
+                }
+                else
+                {
+                    @:<div class="alert alert-success d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                        <div>
+                            Profile has <b>@Model.following followings</b>
+                        </div>
+                }
+                @:</div>
+            @:</div>    
+        @:</div>    
+    @:</div>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 offset-4">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-secondary" style="width:100%">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/>
+                  <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/>
+                </svg>
+                Search again
+            </a>        
+        </div>    
+    </div>    
+</div>

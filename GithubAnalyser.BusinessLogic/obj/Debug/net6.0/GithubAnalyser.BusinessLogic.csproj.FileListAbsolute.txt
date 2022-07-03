@@ -1,0 +1,15 @@
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\GithubAnalyser.BusinessLogic.csproj.AssemblyReference.cache
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\GithubAnalyser.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\GithubAnalyser.BusinessLogic.AssemblyInfoInputs.cache
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\GithubAnalyser.BusinessLogic.AssemblyInfo.cs
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\GithubAnalyser.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\bin\Debug\net6.0\GithubAnalyser.BusinessLogic.deps.json
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\bin\Debug\net6.0\GithubAnalyser.BusinessLogic.dll
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\bin\Debug\net6.0\GithubAnalyser.BusinessLogic.pdb
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\bin\Debug\net6.0\GithubAnalyser.Models.dll
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\bin\Debug\net6.0\GithubAnalyser.Models.pdb
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\GithubAnalyser.BusinessLogic.csproj.CopyComplete
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\GithubAnalyser.BusinessLogic.dll
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\refint\GithubAnalyser.BusinessLogic.dll
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\GithubAnalyser.BusinessLogic.pdb
+C:\SoftwareEngineeringAssessment\SoftwareEngineeringAssessment\GithubAnalyser.BusinessLogic\obj\Debug\net6.0\ref\GithubAnalyser.BusinessLogic.dll

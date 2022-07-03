@@ -1,0 +1,10 @@
+2022-07-02 22:05:09.6810|INFO|Ref: 03ab1574-d916-4ecd-97da-df00fd46cc67; Username: ; State: New request
+2022-07-02 22:05:09.7104|WARN|Ref: 03ab1574-d916-4ecd-97da-df00fd46cc67; Username: ; State: Failed immediately
+2022-07-02 22:05:13.7820|INFO|Ref: d28edbc8-4fa6-487a-95a8-847b328a1fc4; Username: kevincatania14; State: New request
+2022-07-02 22:05:13.7820|INFO|Ref: d28edbc8-4fa6-487a-95a8-847b328a1fc4; Username: kevincatania14; State: Started analysing
+2022-07-02 22:05:14.3402|INFO|Ref: d28edbc8-4fa6-487a-95a8-847b328a1fc4; Username: kevincatania14; State: Finished analysing; Login: ; Company: ; Location: 0; Public_repos: 0; Message: 
+2022-07-02 22:05:20.6741|INFO|Ref: dfd3aff1-f1d4-4e59-a0ed-9795ff60bab3; Username: ; State: New request
+2022-07-02 22:05:20.6741|WARN|Ref: dfd3aff1-f1d4-4e59-a0ed-9795ff60bab3; Username: ; State: Failed immediately
+2022-07-02 22:05:22.3400|INFO|Ref: 5fe86c0d-844f-49f0-8dac-5e081b4e1771; Username: 123; State: New request
+2022-07-02 22:05:22.3400|INFO|Ref: 5fe86c0d-844f-49f0-8dac-5e081b4e1771; Username: 123; State: Started analysing
+2022-07-02 22:05:22.6633|INFO|Ref: 5fe86c0d-844f-49f0-8dac-5e081b4e1771; Username: 123; State: Finished analysing; Login: ; Company: ; Location: 1; Public_repos: 0; Message: 
